@@ -1,0 +1,76 @@
+body {
+	font-family: 'Cairo', sans-serif;
+}
+
+p{
+  color:#525252;
+  font-size:12px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:33px;
+	width:100%;
+	background:#eee;
+	height:30px;
+	border-radius:35px;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-size:15px;
+	color:#ffffff;
+	background:#6adcfa;
+	-webkit-border-radius:35px;
+	-moz-border-radius:35px;
+	-moz-border-radius:35px;
+	border-radius:35px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.15);
+	padding:0 20px;
+	height:30px;
+	line-height:30px;
+	-webkit-border-radius:35px;
+	-moz-border-radius:35px;
+	-moz-border-radius:35px;
+	border-radius:35px;
+}
+
+.skillbar-bar {
+	height:30px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:35px;
+	-moz-border-radius:35px;
+	-webkit-border-radius:35px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:12px;
+	height:30px;
+	line-height:30px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
