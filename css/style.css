@@ -1214,6 +1214,9 @@ ul.top-links li a i.fa:hover {
 .top-links i.fa.fa-linkedin {
     background: #0077b5;
 }
+.top-links i.fa.fa-github {
+    background: #24292e;
+}
 ul.top-links {
     margin-top: 3em;
 }
