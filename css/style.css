@@ -1475,6 +1475,9 @@ iframe {
 	.copyright-agile p {
 		width: 80%;
 	}
+    .font-medium-para {
+        margin-bottom: 1.25em;
+    }
 }
 @media screen and (max-width: 900px){
 	nav.navbar.navbar-default.navbar-fixed-top {
@@ -1817,4 +1820,10 @@ iframe {
 	.w3_banner_info_grid p {
 		margin: 1.5em 0 .5em;
 	}
+}
+.font-medium-para {
+    font-size: 1.25rem;
+    /*@media screen and (max-width: 768px){*/
+        /*margin-bottom:*/
+    /*}*/
 }
