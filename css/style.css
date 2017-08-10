@@ -1206,10 +1206,10 @@ ul.top-links li a i.fa:hover {
     background: #3b5998;
 }
 .top-links i.fa.fa-twitter {
-    background: #0087da;
+    background: #1da1f2;
 }
-.top-links i.fa.fa-google-plus {
-    background: #dd4b39;
+.top-links i.fa.fa-instagram {
+    background: linear-gradient(-140deg,#1400c8,#b900b4,#f50000);
 }
 .top-links i.fa.fa-linkedin {
     background: #0077b5;
